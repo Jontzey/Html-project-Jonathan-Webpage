@@ -10,6 +10,7 @@
     font-size: 70px;
     border-radius: 200px;
     background-color: rgb(194, 108, 252, 0.4);
+   
     
    
     
@@ -17,13 +18,27 @@
 .btnhome {
     border-radius: 40px;
 }
+.persinfo {
+    font-weight: 600;
+    text-shadow: black 3px 2px;
+}
 
 header {
     display: flex;
-    padding-bottom: 10px;
+    margin-left: 10px;
+    padding-bottom: 5px;
     align-content: center;
     justify-content: center;
     
+}
+
+header img {
+    width: 100px;
+    
+}
+header img:hover {
+    transition: 1s;
+    object-position: 20%;
 }
 
 body {
@@ -31,8 +46,10 @@ body {
 }
 .container {
     display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
     justify-content: center;
-    height: 700px;
+    height: 500px;
     
 }
 
@@ -75,19 +92,20 @@ footer {
     align-items: center;
     background-color: rgb(194, 108, 252, 0.4);
     color: #fff;
-    height: 700px;
+    height: 520px;
     width: 580px;
     border-radius: 100px;
     margin-left: 15px;
 }
 .personalinfo p:nth-of-type(1){
     font-size: 60px;
-    height: 70px;
+    height: 5px;
+    
 }
 .personalinfo div {
     border-radius: 30px;
     width: 500px;
-    height: 400px;
+    height: 340px;
     border-style: solid;
     border-color: #fff;
 }
@@ -97,7 +115,7 @@ footer {
     justify-content: start;
     align-items: center;
     flex-direction: column;
-    padding-top: 10px;
+    padding-top: 0px;
     
 }
 .textheads {
@@ -105,7 +123,8 @@ footer {
     padding-top: 10px;
     padding-left: 10px;
     color: #fff;
-    text-shadow: black 4px 1px;
+    font-weight: 600;
+    text-shadow: black 3px 2px;
 }
 .textheads:nth-of-type(4) {
     text-decoration: underline;
@@ -122,5 +141,128 @@ footer {
 .sectionforanimation {
     
     width: 600px;
-
+    height: 400px;
 }
+.sectionforanimation img:hover {
+    transform:  rotate(360deg);
+    transition: 3s;
+}
+
+.divskills {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100px;
+    width: 100px;
+}
+
+
+
+
+.containernr2 {
+   display: flex;
+   flex-direction: row;
+    width: 1850px;
+    height: 1050px;
+    /* background-color: #fff; */
+    
+}
+
+
+
+
+.eduTitle {
+    color: #fff;
+    text-shadow: black 3px 2px;
+    font-weight: 600;
+    font-size: 22px;
+    margin-left: 150px;
+}
+
+ul {
+    color: #fff;
+    font-size:  20px;
+    text-shadow: black 3px 2px;
+}
+
+.test {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 400px;
+    height: 100px;
+}
+.headproject{
+    font-size: 30px;
+    padding-bottom: 0%;
+    
+}
+.projecttext {
+    
+    height: 100px;
+    width: 1000px;
+}
+
+.edudiv {
+    width: 550px;
+    height: 480px;
+    background-color: rgb(194, 108, 252, 0.4);
+    border-radius: 80px;
+    padding-left: 0px;
+    margin-left: 10px;
+}
+
+.gethome {
+    margin-left: 1150px;
+}
+
+.theprojectdiv {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 1500px;
+    height: 1400;
+    padding-left: 10px;
+    background-color: rgb(194, 108, 252, 0.4);
+    border-radius: 100px;
+}
+
+.theyellowcarrot {
+    display: flex;
+    flex-direction: row;
+}
+.projectname {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    font-size: 26px;
+    padding-top: 0%;
+    margin-left: 0px;
+}
+.vid1 {
+    border-style: solid;
+    height: 300px;
+    width: 600px;
+    margin-left: 80px;
+    border-radius: 20px;
+}
+.vid1:hover {
+    transition: 1s;
+    width: 1000px;
+    height: 500px;
+    
+}
+.hmm {
+    padding-left: 15px;
+    color: #fff;
+}
+
+.projecttext2 {
+    display: flex;
+    flex-direction: row;
+}
+

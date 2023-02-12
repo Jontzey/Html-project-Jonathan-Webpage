@@ -14,7 +14,8 @@
 .headtext:hover {
     transition: 0.5s;
     -webkit-text-stroke: 4px #fff;
-    
+    font-size: 200px;
+    transition: 1s;
     color: transparent;
     
 }
